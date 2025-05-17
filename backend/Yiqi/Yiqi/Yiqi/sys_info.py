@@ -8,5 +8,5 @@
 # @NetName : 書劍
 # @Software: 一起哟预约报名小程序后端
 
-MINI_APP_ID = ''
-MINI_APP_SECRET = ''
+MINI_APP_ID = 'wx607dc9a32adcbdd0'
+MINI_APP_SECRET = '35be4c1fdf511ff6b4464e4787cdd9de'

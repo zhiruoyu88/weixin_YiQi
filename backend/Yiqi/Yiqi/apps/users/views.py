@@ -54,6 +54,7 @@ class READJSONWebTokenAPIView(JSONWebTokenAPIView):
             crypt = WXBizDataCrypt(MINI_APP_ID, session_key)
             encrypted_data = username['username']  # 获取到encrypted_data
             iv = username['password']  # 获取到iv
+            print(iv)
             user_info = crypt.decrypt(encrypted_data, iv)  # 获取到用户的登陆信息
 
             # 获取用户的信息

@@ -1,0 +1,6 @@
+Collecting zope.interface
+  Downloading zope.interface-7.2-cp313-cp313-win_amd64.whl.metadata (45 kB)
+Requirement already satisfied: setuptools in c:\users\m_con\.pyenv\pyenv-win\versions\3.13.3\lib\site-packages (from zope.interface) (57.5.0)
+Downloading zope.interface-7.2-cp313-cp313-win_amd64.whl (212 kB)
+Installing collected packages: zope.interface
+Successfully installed zope.interface-7.2

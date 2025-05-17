@@ -264,6 +264,7 @@ class BaseAdminView(BaseAdminObject, View):
 
     @classonlymethod
     def as_view(cls):
+        print('9999')
         def view(request, *args, **kwargs):
             self = cls(request, *args, **kwargs)
 

@@ -105,7 +105,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'yiqi',
         'USER': 'root',
-        'PASSWORD': 'admin123456',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '3306',
         "OPTIONS": {"init_command": "SET default_storage_engine=INNODB;", "charset": "utf8mb4"},
@@ -220,6 +220,6 @@ REGEX_MOBILE = "^((\d3)|(\d{3}\-))?13[0-9]\d{8}|15[89]\d{8}"
 
 # IMAGES_URL = "http://192.168.4.117:8001/"
 
-IMAGES_URL = "http://192.168.1.80:8001/"
+IMAGES_URL = "http://127.0.0.1:8000/"
 
 # IMAGES_URL = "https://api.goog8.com/"
